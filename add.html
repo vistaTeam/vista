@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel='stylesheet' href='/main.css'>
+</head>
+<body>
+    <div class="margin-top">
+    <div class="container">
+
+    <form method="POST" novalidate action="/projects/add">
+
+        <div class="form-group">
+            <label for="headerTitle">Header Title</label>
+            <input type="text" name="headerTitle" class="form-control" id="headerTitle" placeholder="Enter header Title">
+        </div>
+          
+        <div class="form-group">
+            <label for="headerSecondTitle">Header Second Title</label>
+            <input type="text" name="headerSecondTitle" class="form-control" id="headerSecondTitle" aria-describedby="emailHelp" placeholder="Enter second title Title">
+        </div>
+
+        <div class="form-group">
+            <label for="mainTitle">Main Title</label>
+            <input type="text" name="mainTitle" class="form-control" id="mainTitle" aria-describedby="emailHelp" placeholder="Enter main Title">
+        </div>
+
+        <div class="form-group">
+            <label for="firstText">First Text</label>
+            <input type="text" name="firstText" class="form-control" id="firstText" aria-describedby="emailHelp" placeholder="Enter first text">
+        </div>
+
+        <div class="form-group">
+            <label for="secondText">Second text</label>
+            <input type="text" name="secondText" class="form-control" id="secondText" aria-describedby="emailHelp" placeholder="Enter second text">
+        </div>
+
+        <div class="form-group">
+            <label for="date">Date</label>
+            <input type="text" name="date" class="form-control" id="date" aria-describedby="emailHelp" placeholder="date">
+        </div>
+
+
+        <div class="form-group">
+            <label for="live">Live</label>
+            <input type="text" name="live" class="form-control" id="live" aria-describedby="emailHelp" placeholder="live">
+        </div>
+
+        <div class="form-group">
+            <label for="category">Category</label>
+            <select name="category" id="category" class="form-control">
+              <option>Choose...</option>
+              <option value="Designing">Designing</option>
+              <option value="Marketing">Marketing</option>
+              <option value="Develpoment">Development</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mainImage">Main Image</label>
+            <input type="text" name="mainImage" class="form-control" id="mainImage" aria-describedby="emailHelp" placeholder="Main image">
+        </div>
+
+        <div class="form-group">
+          <label for="images">Images</label>
+          <input type="text" name="images" class="form-control" id="images" aria-describedby="emailHelp" placeholder="images">
+      </div>
+
+      <div class="form-group">
+        <label for="latest">Is that latest?</label>
+        <select name="latest" id="latest" class="form-control">
+          <option>Choose...</option>
+          <option value="yes">yes</option>
+          <option value="no">no</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="video">Have a video?</label>
+        <select name="video" id="video" class="form-control">
+          <option>Choose...</option>
+          <option value="yes">yes</option>
+          <option value="no">no</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="imgVideo">Image for Video</label>
+        <input type="text" name="imgVideo" class="form-control" id="imgVideo" aria-describedby="emailHelp" placeholder="Imafe for the video">
+    </div>
+
+    <div class="form-group">
+        <label for="videoId">Video ID</label>
+        <input type="text" name="videoId" class="form-control" id="videoId" aria-describedby="emailHelp" placeholder="Video ID">
+    </div>
+
+
+
+
+
+          <button name="submit" type="submit" class="btn btn-primary btn-lg btn-block">Block level button</button>
+          
+    </form>
+</div>
+</div>
+</body>
+</html>
