@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://vistateam.herokuapp.com/",
+  "engines": {
+    "node": "12.x"
+  },
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
