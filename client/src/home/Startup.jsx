@@ -4,7 +4,7 @@ import { slideSlick } from "../page-demo/script";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 // import Header from "../component/header/Header";
-// import Particles from 'react-particles-js';
+import Particles from 'react-particles-js';
 import HeaderThree from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import TabOne from "../elements/tab/TabOne";
@@ -68,7 +68,7 @@ class Startup extends Component{
                 <div className="slider-wrapper">
                     <div className="slider-activation slider-startup with-particles">
                     <div className="frame-layout__particles">
-                    {/* <Particles
+                    <Particles
     params={{
 	    "particles": {
 	        "number": {
@@ -119,7 +119,7 @@ class Startup extends Component{
 	            }
 	        }
 	    }
-	}} /> */}
+	}} />
                             </div> 
                         <Slider className="rn-slick-dot dot-light" {...slideSlick}>
                             {SlideList.map((value , index) => (
