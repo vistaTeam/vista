@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ModalVideo from 'react-modal-video';
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn, FaWhatsapp, FaTelegram} from "react-icons/fa";
+import {FaTwitter ,FaFacebookF , FaWhatsapp, FaTelegram} from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderThree";
@@ -67,14 +67,14 @@ class PortfolioDetails extends Component{
         })
         .catch(function (error) {
             alert(error)
-        } .bind(this))
+        })
 
 
 
     }
 
     showLive=()=>{
-        if (this.state.project.live != '-') {
+        if (this.state.project.live !== '-') {
             return( <div className="port-view">
                      <span>Live</span>
                      <h4><a target='blank' href={`https://${this.state.project.live}`}>Here...</a></h4>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab, Tabs, TabList } from 'react-tabs';
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from 'react-scroll-up';
@@ -8,7 +8,7 @@ import Header from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 import Slider from "react-slick";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import { slickDot , portfolioSlick2 } from "../page-demo/script";
+import { slickDot } from "../page-demo/script";
 // import axios from 'axios';
 import http from "../http-common.js";
 
@@ -34,7 +34,7 @@ class Portfolio extends Component{
     componentDidMount() {
         var url = window.location.href;
         
-        if (url.charAt(url.length - 1) == 'l') {
+        if (url.charAt(url.length - 1) === 'l') {
             window.scrollTo(0, 850);
         }
         else {
@@ -51,6 +51,7 @@ class Portfolio extends Component{
                if (e.latest === true){
                    return temp.push(e)
                }
+               return e
            })
            this.setState({latestList: temp})
 
@@ -59,15 +60,16 @@ class Portfolio extends Component{
            let tempDevelopment = [];
 
            res.data.map((e)=>{
-               if (e.category == 'Designing') {
+               if (e.category === 'Designing') {
                    tempDesigning.push(e)
                }
-               else if (e.category == 'Marketing') {
+               else if (e.category === 'Marketing') {
                 tempMarketing.push(e)
                }
-               else if (e.category == 'Development') {
+               else if (e.category === 'Development') {
                 tempDevelopment.push(e)
                }
+               return e
            })
 
            this.setState({deisgningList: tempDesigning});
@@ -76,7 +78,7 @@ class Portfolio extends Component{
         })
         .catch(function (error) {
             console.log(error)
-        } .bind(this))
+        })
     }
 
     showAll=()=>{
@@ -95,13 +97,13 @@ class Portfolio extends Component{
 
     showMore=()=>{
         if (this.state.listNumber < this.state.listForProps.length) {
-            return (<a onClick={_=>{this.setState({listNumber: this.state.listNumber + 3})}} className="rn-button-style--2 btn-less-more btn-solid" ><span>View More Projects</span></a>)
+            return (<button onClick={_=>{this.setState({listNumber: this.state.listNumber + 3})}} className="rn-button-style--2 btn-less-more btn-solid" ><span>View More Projects</span></button>)
         }
     }
 
     showLess=()=>{
         if (this.state.listNumber > 6 || this.state.listForProps < 6) {
-            return (<a onClick={_=>{this.setState({listNumber: this.state.listNumber - 3})}} className="rn-button-style--2 btn-less-more btn-solid" ><span>View Less Projects</span></a>)
+            return (<button onClick={_=>{this.setState({listNumber: this.state.listNumber - 3})}} className="rn-button-style--2 btn-less-more btn-solid" ><span>View Less Projects</span></button>)
         }
     }
 
@@ -138,8 +140,8 @@ class Portfolio extends Component{
                                                 <div className="portfolio" key={index}>
                                                      <a href={`/portfolio-details/id${value._id}`}>
                                                     <div className="thumbnail-inner">
-                                                        <img src={value.mainImage} className='thumbnail'></img>
-                                                        <img src={value.mainImage} className='bg-blr-image'></img>
+                                                        <img src={value.mainImage} className='thumbnail' alt='mainImage'></img>
+                                                        <img src={value.mainImage} className='bg-blr-image' alt='mainImage'></img>
                                                     </div> </a>
 
                                                     <div className="content">

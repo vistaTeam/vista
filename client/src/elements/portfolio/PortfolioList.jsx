@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import axios from 'axios';
+// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+// import axios from 'axios';
 
 
 class PortfolioList extends Component{
@@ -15,8 +15,8 @@ class PortfolioList extends Component{
                         <div className={`portfolio ${styevariation}`}>
                         <a href={`/portfolio-details/id${value._id}`}>
                             <div className="thumbnail-inner">
-                                <img src={value.mainImage} className='thumbnail' alt='image'></img>
-                                <img src={value.mainImage} className='bg-blr-image' alt='image'></img>
+                                <img src={value.mainImage} className='thumbnail' alt='Mainimage'></img>
+                                <img src={value.mainImage} className='bg-blr-image' alt='Mainimage'></img>
                                 </div></a>
                             <div className="content">
                                 <div className="inner">

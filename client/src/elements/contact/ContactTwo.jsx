@@ -34,7 +34,7 @@ class ContactTwo extends Component{
 
 
     showForm=()=>{
-        if (this.state.showForm == true) {
+        if (this.state.showForm === true) {
             return(<div>
                                             <div className="form-wrapper">
                                     <label htmlFor="item01">
@@ -91,7 +91,7 @@ class ContactTwo extends Component{
 
 
     showAnimation=()=>{
-        if (this.state.showAnimation == true) {
+        if (this.state.showAnimation === true) {
             return(<Lottie options={defaultOptions}
                 height={250}
                 width={250}
@@ -105,7 +105,7 @@ class ContactTwo extends Component{
         this.setState({showForm: false, showAnimation: true})
 
         var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                if (re.test(this.state.rnEmail) && this.state.rnName != '' && this.state.rnSubject != '' && this.state.rnMessage != '') {
+                if (re.test(this.state.rnEmail) && this.state.rnName !== '' && this.state.rnSubject !== '' && this.state.rnMessage !== '') {
 
         var templateParams = {
             name: this.state.rnName,
@@ -134,19 +134,19 @@ class ContactTwo extends Component{
     }
 
     showError=()=>{
-        if (this.state.showError == true) {
+        if (this.state.showError === true) {
             return(<div className='error-message'>Please fill all fields!</div>)
         }
     }
 
     showFalse=()=>{
-        if (this.state.showFalse == true) {
+        if (this.state.showFalse === true) {
             return(<div className='error-message'>Sorry, Please try again later!</div>)
         }
     }
 
     showSuccsess=()=>{
-        if (this.state.showSuccsess == true) {
+        if (this.state.showSuccsess === true) {
             return(<div className='succsess-message'>Thank you for contacting us – we will get back to you soon!</div>)
         }
     }

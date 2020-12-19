@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
-import GoogleMapReact from 'google-map-react';
+// import GoogleMapReact from 'google-map-react';
 import ContactTwo from "../elements/contact/ContactTwo";
-import BrandTwo from "../elements/BrandTwo";
+// import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+// const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class Contact extends Component{
     static defaultProps = {

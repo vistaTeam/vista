@@ -15,7 +15,7 @@ import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
 // import AboutTwo from "../component/HomeLayout/homeOne/AboutTwo";
 import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
-import BlogContent from "../elements/blog/BlogContent";
+// import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";
 
@@ -55,7 +55,7 @@ class Startup extends Component{
         window.scrollTo(0, 0);
     }
     render(){
-        const PostList = BlogContent.slice(0 , 3);
+        // const PostList = BlogContent.slice(0 , 3);
         let title = 'About',
         description = 'Our team is made up of skilled experts across the fields of graphic design, marketing and web development. With decades of combined experience under our belts, we bring the necessary expertise to make your business or campaign thrive.';
 
@@ -72,13 +72,14 @@ class Startup extends Component{
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 160,
+	            "value": 200,
 	            "density": {
 	                "enable": false
 	            }
-	        },
+            },
+            color: "#0066cc",
 	        "size": {
-	            "value": 3,
+	            "value": 4,
 	            "random": true,
 	            "anim": {
 	                "speed": 4,

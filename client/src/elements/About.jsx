@@ -4,7 +4,7 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
 import BrandTwo from "../elements/BrandTwo";
-import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
+// import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import HeaderThree from "../component/header/HeaderThree";
@@ -21,7 +21,7 @@ class About extends Component{
     
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
+        description = 'Our team is made up of skilled experts across the fields of graphic design, marketing and web development. With decades of combined experience under our belts, we bring the necessary expertise to make your business or campaign thrive.';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />

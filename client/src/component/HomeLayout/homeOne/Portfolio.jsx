@@ -58,15 +58,16 @@ class Portfolio extends Component{
         .then(res => {
            let temp = [];
            res.data.map((e)=>{
-               if (e.latest == true){
-                   temp.push(e)
+               if (e.latest === true){
+                   return temp.push(e)
                }
+               return e
            })
            this.setState({latestList: temp})})
 
-        .catch(function (error) {
+        .catch(function(error){
             console.log(error);
-        } .bind(this))
+        })
     }
     
 
@@ -94,8 +95,8 @@ class Portfolio extends Component{
                                 <div className="portfolio" key={index}>
                                     <a href={`/portfolio-details/id${value._id}`}> 
                                     <div className="thumbnail-inner">
-                                        <img alt='image' src={value.mainImage} className="thumbnail" alt='image' ></img>
-                                        <img alt='image' src={value.mainImage} className="bg-blr-image" alt='image'></img>
+                                        <img src={value.mainImage} className="thumbnail" alt='Main' ></img>
+                                        <img src={value.mainImage} className="bg-blr-image" alt='Main'></img>
                                     </div></a>
                                     <div className="content">
                                         <div className="inner">

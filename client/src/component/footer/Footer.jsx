@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaTelegram ,FaWhatsapp, FaLinkedinIn, FaGithub} from "react-icons/fa";
+import {FaTwitter ,FaTelegram ,FaWhatsapp, FaGithub} from "react-icons/fa";
 
 const SocialShare = [
     {Social: <FaWhatsapp /> , link: 'https://api.whatsapp.com/message/EII5XPROJOITG1'},
