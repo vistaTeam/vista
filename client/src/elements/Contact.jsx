@@ -61,7 +61,7 @@ class Contact extends Component{
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
                                         <p><a href="tel:+44 738 342 9306">+44 738 342 9306</a></p>
-                                        <p><a href="tel:+972 53 441 3826">+972 53 441 3826</a></p>
+                                        <p><a href="tel:+972 3 686 0498">+972 3 686 0498</a></p>
                                     </div>
                                 </div>
                             </div>
