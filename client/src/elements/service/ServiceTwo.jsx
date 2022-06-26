@@ -26,7 +26,7 @@ const ServiceList = [
 
 class ServiceTwo extends Component{
     render(){
-        let title = 'Services',
+        let title = 'Our Services',
         description = 'Our skilled team is prepared to meet all of your design, marketing and web development needs.';
         return(
             <React.Fragment>

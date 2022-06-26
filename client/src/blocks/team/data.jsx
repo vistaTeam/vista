@@ -4,20 +4,20 @@ import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 let data = [
     {
         images: '01',
-        title: 'Jone Due',
-        designation: 'Sr. Web Developer',
+        title: 'Mendy Joseph',
+        designation: 'Director & Designer',
         socialNetwork: [
             {
                 icon: <FaFacebookF />,
-                url: '#'
+                url: 'https://www.facebook.com/mendy2451'
             },
             {
                 icon: <FaLinkedinIn />,
-                url: '#'
+                url: 'https://www.linkedin.com/in/vista-team-8409a41b4/'
             },
             {
                 icon: <FaTwitter />,
-                url: '#'
+                url: 'https://twitter.com/sh_vista'
             },
         ]
     },

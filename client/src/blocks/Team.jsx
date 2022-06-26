@@ -43,7 +43,7 @@ const Team = () => {
                 {/* End Team Area  */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-wrapper ptb--120 bg_color--5">
+                {/* <div className="rn-team-wrapper ptb--120 bg_color--5">
                     <div className="rn-team-area">
                         <div className="container">
                             <div className="row">
@@ -57,11 +57,11 @@ const Team = () => {
                             <TeamTwo column="col-lg-3" teamStyle="" item="4" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Team Area  */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-wrapper ptb--120 bg_color--1">
+                {/* <div className="rn-team-wrapper ptb--120 bg_color--1">
                     <div className="rn-team-area">
                         <div className="container">
                             <div className="row">
@@ -75,7 +75,7 @@ const Team = () => {
                             <TeamOne column="col-lg-3" teamStyle="team-style--bottom" item="8" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Team Area  */}
 
 

@@ -4,8 +4,8 @@ import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 let TeamContent = [
     {
         images: '01',
-        title: 'Jone Due',
-        designation: 'Sr. Web Developer',
+        title: 'Mendy Joseph',
+        designation: 'Director & Designer',
         socialNetwork: [
             {
                 icon: <FaFacebookF />,

@@ -5,7 +5,7 @@ const SocialShare = [
     {Social: <FaWhatsapp /> , link: 'https://api.whatsapp.com/message/EII5XPROJOITG1'},
     {Social: <FaGithub /> , link: 'https://github.com/vistaTeam'},
     {Social: <FaTelegram /> , link: 'https://t.me/s/vistauk'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/ShVista'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/Sh_Vista'},
 ]
 class Footer extends Component{
     render(){
@@ -36,6 +36,8 @@ class Footer extends Component{
                                                     <li><a href="/about">About</a></li>
                                                     <li><a href="/portfolio/vista">Portfolio</a></li>
                                                     <li><a href="/service">Services</a></li>
+                                                    <li><a href="/team">Team</a></li>
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -62,7 +64,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2021 VISTA - All Rights Reserved.</p>
+                                                <p>Copyright © 2022 VISTA - All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

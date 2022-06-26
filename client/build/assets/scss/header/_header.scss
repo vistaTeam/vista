@@ -397,9 +397,9 @@
                                         display: none;
                                         width: 0;
                                         height: 0;
-                                        border-style: solid;
-                                        border-width: 7px 7px 0 7px;
-                                        border-color: #1f1f25 transparent transparent transparent;
+                                        // border-style: solid;
+                                        // border-width: 7px 7px 0 7px;
+                                        // border-color: #1f1f25 transparent transparent transparent;
                                         position: absolute;
                                         content: "";
                                         right: 0;
@@ -423,9 +423,9 @@
                                     &::after{
                                         width: 0;
                                         height: 0;
-                                        border-style: solid;
-                                        border-width: 7px 7px 0 7px;
-                                        border-color: #1f1f25 transparent transparent transparent;
+                                        // border-style: solid;
+                                        // border-width: 7px 7px 0 7px;
+                                        // border-color: #1f1f25 transparent transparent transparent;
                                         position: absolute;
                                         content: "";
                                         right: 0;

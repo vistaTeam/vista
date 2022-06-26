@@ -45,7 +45,7 @@ import error404 from "./elements/error404";
 
 // Blocks Layout
 
-// import Team from "./blocks/Team";
+import Team from "./blocks/Team";
 // import Counters from "./blocks/Counters";
 // import Testimonial from "./blocks/Testimonial";
 import Portfolio from "./blocks/Portfolio";
@@ -103,8 +103,8 @@ class Root extends Component{
 
 
                     {/* Blocks Elements  */}
-                    {/* <Route exact path={`${process.env.PUBLIC_URL}/team`} component={Team}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/counters`} component={Counters}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/team`} component={Team}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/counters`} component={Counters}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/testimonial`} component={Testimonial}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio/:point`} component={Portfolio}/>
                     {/* <Route exact path={`${process.env.PUBLIC_URL}/video-popup`} component={VideoPopup}/>
