@@ -103,7 +103,7 @@ class HeaderThree extends Component{
                     </nav>
                     <div className="header-btn">
                         <a className="rn-btn" href="/contact">
-                            <span>ENJOY US!</span>
+                            <span>LET'S GO...</span>
                         </a>
                     </div>
                         {/* Start Humberger Menu  */}

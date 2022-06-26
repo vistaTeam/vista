@@ -35,7 +35,7 @@ const SlideList = [
         category: '',
         title: 'Development.',
         description: 'Your website is the cornerstone of your business and our skilled developers design websites made to stand out from the pack.',
-        buttonText: 'Enjoy Us',
+        buttonText: 'Let\'s go...' ,
         buttonLink: '/contact'
     },
     {
