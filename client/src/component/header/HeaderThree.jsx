@@ -91,7 +91,7 @@ class HeaderThree extends Component{
                                     <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/3">Marketing</Link></div></li>
                                 </ul>
                             </li>
-                            <li><Link to="/team">TEAM</Link></li>
+                            {/* <li><Link to="/team">TEAM</Link></li> */}
                             <li className="has-droupdown"><Link to="/portfolio/vista" >PORTFOILO</Link>
                                 <ul className="submenu">
                                     <li><Link to="/portfolio/latest">Latest work</Link></li>
