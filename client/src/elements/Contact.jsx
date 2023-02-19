@@ -60,7 +60,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+442031379731"><a style={{color: 'rgb(249, 0, 77)'}}>UK Number: </a>+44 20 3137 9731 </a></p>
+                                        <p><a href="tel:+442031379731"><a style={{color: 'rgb(249, 0, 77)'}}>US Number: </a>718-705-4984</a></p>
                                         <p><a href="tel:+97236860498"><a style={{color: 'rgb(249, 0, 77)'}}>ISRAEL Number: </a>+972 3 686 0498</a></p>
                                     </div>
                                 </div>
@@ -75,8 +75,10 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
+                                        <p><a href="mailto:info@vistateam.net">info@vistateam.net</a></p>
                                         <p><a href="mailto:info@vistateam.co.uk">info@vistateam.co.uk</a></p>
-                                        <p><a href="mailto:mendy@vistateam.co.uk">mendy@vistateam.co.uk</a></p>
+
+                                        {/* <p><a href="mailto:mendy@vistateam.co.uk">mendy@vistateam.co.uk</a></p> */}
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +92,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Location</h4>
-                                        <p> <a target='blank' href="https://goo.gl/maps/sxVx6rXK1wfrCCRQA">Unit 28 Theydon Rd. <br />London, E5 9NA </a> </p>
+                                        <p> <a target='blank' href="https://goo.gl/maps/uakbRmN6CELwsrKF7">309 N Main St,<br /> Spring Valley, NY 10977</a> </p>
                                     </div>
                                 </div>
                             </div>
