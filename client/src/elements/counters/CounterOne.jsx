@@ -14,17 +14,17 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                countNum : 784,
+                countNum : 275,
                 countTitle:'HAPPY CLIENTS',
                 countText: 'We provide high quality work and exceptional customer service to meet each client’s unique needs. We aren’t happy unless you’re happy!',
             },
             {
-                countNum : 134,
+                countNum : 80,
                 countTitle:'PROJECTS COMPLETED',
                 countText: 'Whether it’s graphic design, a marketing campaign, we work hard to ensure that our projects are always completed thoroughly.',
             },
             {
-                countNum : 8,
+                countNum : 6,
                 countTitle:'DEVELOPED WEBSITES',
                 countText: 'We specialize in crafting beautifully designed websites for clients from a variety of businesses across the globe.',
             },

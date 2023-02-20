@@ -125,7 +125,7 @@ class Startup extends Component{
                         <Slider className="rn-slick-dot dot-light" {...slideSlick}>
                             {SlideList.map((value , index) => (
                                 // Start Single Slider 
-                                <div className={`slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image ${value.bgImage}`} key={index} data-black-overlay="8">
+                                <div className={`slide slide-style-2 fullscreen d-flex align-items-center justify-content-center bg_image ${value.bgImage}`} key={index} data-black-overlay="7">
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-lg-12">
