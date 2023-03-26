@@ -47,7 +47,7 @@ class Footer extends Component{
                                             <div className="footer-link">
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="mailto:info@vistateam.co.uk">info@vistateam.co.uk</a></li>
+                                                    <li><a href="mailto:info@vistateam.net">info@vistateam.net</a></li>
                                                     <li><a href="/contact">Let's Talk here...</a></li>
                                                 </ul>
 

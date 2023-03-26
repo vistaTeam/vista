@@ -76,7 +76,7 @@ class Contact extends Component{
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
                                         <p><a href="mailto:info@vistateam.net">info@vistateam.net</a></p>
-                                        <p><a href="mailto:info@vistateam.co.uk">info@vistateam.co.uk</a></p>
+                                        <p><a href="mailto:info@vistateam.net">info@vistateam.net</a></p>
 
                                         {/* <p><a href="mailto:mendy@vistateam.co.uk">mendy@vistateam.co.uk</a></p> */}
                                     </div>
