@@ -4,7 +4,7 @@ import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 let data = [
     {
         images: '01',
-        title: 'Mendy Joseph',
+        title: 'Meilech Joseph',
         designation: 'Director & Designer',
         socialNetwork: [
             {
