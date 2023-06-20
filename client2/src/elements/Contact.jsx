@@ -85,7 +85,7 @@ class Contact extends Component{
                             {/* End Single Address  */}
 
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
                                 <div className="rn-address">
                                     <div className="icon">
                                         <FiMapPin />
@@ -95,7 +95,7 @@ class Contact extends Component{
                                         <p> <a target='blank' href="https://goo.gl/maps/uakbRmN6CELwsrKF7">309 N Main St,<br /> Spring Valley, NY 10977</a> </p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Address  */}
 
                         </div>

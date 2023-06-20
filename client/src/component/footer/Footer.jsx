@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaTelegram ,FaWhatsapp, FaGithub} from "react-icons/fa";
+import {FaTwitter ,FaInstagram ,FaWhatsapp, FaGithub} from "react-icons/fa";
 
 const SocialShare = [
     {Social: <FaWhatsapp /> , link: 'https://wa.me/447383429306'},
     {Social: <FaGithub /> , link: 'https://github.com/vistaTeam'},
-    {Social: <FaTelegram /> , link: 'https://t.me/s/vistauk'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/vista_us/'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/Sh_Vista'},
 ]
 class Footer extends Component{
@@ -36,7 +36,7 @@ class Footer extends Component{
                                                     <li><a href="/about">About</a></li>
                                                     <li><a href="/portfolio/vista">Portfolio</a></li>
                                                     <li><a href="/service">Services</a></li>
-                                                    <li><a href="/team">Team</a></li>
+                                                    {/* <li><a href="/team">Team</a></li> */}
 
                                                 </ul>
                                             </div>

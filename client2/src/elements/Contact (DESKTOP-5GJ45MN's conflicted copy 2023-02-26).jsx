@@ -76,14 +76,14 @@ class Contact extends Component{
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
                                         <p><a href="mailto:info@vistateam.net">info@vistateam.net</a></p>
-                                        <p><a href="mailto:meilech@vistateam.net">meilech@vistateam.net</a></p>
+                                        <p><a href="mailto:mendy@vistateam.net">mendy@vistateam.net</a></p>
                                     </div>
                                 </div>
                             </div>
                             {/* End Single Address  */}
 
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
                                 <div className="rn-address">
                                     <div className="icon">
                                         <FiMapPin />
@@ -93,7 +93,7 @@ class Contact extends Component{
                                         <p> <a target='blank' href="https://goo.gl/maps/Y1KDFvmSQXkakjLMA">309 N Main St, <br />Spring Valley, NY 10977 </a> </p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Address  */}
 
                         </div>
