@@ -1,12 +1,14 @@
 import React from 'react';
-import {FaTwitter ,FaTelegram ,FaWhatsapp, FaGithub} from "react-icons/fa";
+import {FaTwitter ,FaInstagram ,FaWhatsapp, FaGithub} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaWhatsapp /> , link: 'https://api.whatsapp.com/message/EII5XPROJOITG1'},
+    {Social: <FaWhatsapp /> , link: 'https://wa.me/17187054984'},
     {Social: <FaGithub /> , link: 'https://github.com/vistaTeam'},
-    {Social: <FaTelegram /> , link: 'https://t.me/s/vistauk'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/vista_us/'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/Sh_Vista'},
 ]
+
+const currentYear = new Date().getFullYear();
 
 const FooterTwo = () => {
     return (
@@ -34,7 +36,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p>Copyright © 2022 VISTA - All Rights Reserved.</p>
+                                <p>Copyright © {currentYear} VISTA - All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>

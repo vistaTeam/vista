@@ -72,7 +72,7 @@ class Startup extends Component{
     params={{
 	    "particles": {
 	        "number": {
-	            "value": 200,
+	            "value": 300,
 	            "density": {
 	                "enable": false
 	            }
@@ -91,7 +91,7 @@ class Startup extends Component{
 	        },
 	        "move": {
 	            "random": true,
-	            "speed": 1,
+	            "speed": 2,
 	            "direction": "top",
 	            "out_mode": "out"
 	        }

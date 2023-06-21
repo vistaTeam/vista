@@ -33,7 +33,7 @@ const SlideList = [
         textPosition: 'text-center',
         bgImage: 'bg_image--12',
         category: '',
-        title: 'Development.',
+        title: 'Web development that wows',
         description: 'Your website is the cornerstone of your business and our skilled developers design websites made to stand out from the pack.',
         buttonText: 'Let\'s go...' ,
         buttonLink: '/contact'

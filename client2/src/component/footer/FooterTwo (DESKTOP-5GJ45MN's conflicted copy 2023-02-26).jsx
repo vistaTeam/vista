@@ -1,10 +1,10 @@
 import React from 'react';
-import {FaTwitter ,FaTelegram ,FaWhatsapp, FaGithub} from "react-icons/fa";
+import {FaTwitter ,FaInstagram ,FaWhatsapp, FaGithub} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaWhatsapp /> , link: 'https://api.whatsapp.com/message/EII5XPROJOITG1'},
+    {Social: <FaWhatsapp /> , link: 'https://wa.me/17187054984'},
     {Social: <FaGithub /> , link: 'https://github.com/vistaTeam'},
-    {Social: <FaTelegram /> , link: 'https://t.me/s/vistauk'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/vista_us/'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/Sh_Vista'},
 ]
 
