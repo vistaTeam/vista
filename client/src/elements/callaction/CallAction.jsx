@@ -6,8 +6,8 @@ const CallAction = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="inner text-center">
-                            <span>READY TO DO THIS</span>
-                            <h2>Let's get to work</h2>
+                            <span>Ready for Success!</span>
+                            <h2>Ignite Your Growth! Let's Get Started!</h2>
                             <a className="rn-button-style--2" href="/contact"><span>Contact Us</span></a>
                         </div>
                     </div>

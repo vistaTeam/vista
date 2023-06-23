@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 class BrandTwo extends Component{
     render(){
-        let title = 'BRANDS...';
-        let description = 'We pride ourselves on working with brands of all sizes and all industries. Check out a few of the brands we’ve been fortunate to work with.';
+        let title = 'BRANDS CONNECTIONS';
+        let description = 'Collaborating with Brands and Organizations for Mutual Growth';
         return(
             <React.Fragment>
                     <h2 className="title" style={{textAlign: 'center'}}>{title}</h2>

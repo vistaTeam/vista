@@ -20,10 +20,10 @@ class Footer extends Component{
                             <div className="col-lg-6">
                                 <div className="footer-left">
                                     <div className="inner">
-                                        <span>Ready To Do This</span>
-                                        <h2>Let's get <br /> to work</h2>
+                                        <span>Ready for Success!</span>
+                                        <h2>Let's Get<br />Started!</h2>
                                         <a className="rn-button-style--2" href="/contact">
-                                            <span>Contact Us</span>
+                                            <span>Get in touch</span>
                                         </a>
                                     </div>
                                 </div>
@@ -34,11 +34,11 @@ class Footer extends Component{
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12">
                                             <div className="footer-link">
-                                                <h4>Quick Link</h4>
+                                                <h4>Effortless Link</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="/about">About</a></li>
-                                                    <li><a href="/portfolio/vista">Portfolio</a></li>
-                                                    <li><a href="/service">Services</a></li>
+                                                    <li><a href="/about">Mission & Vision</a></li>
+                                                    <li><a href="/portfolio/vista">Success Stories</a></li>
+                                                    <li><a href="/service">What We Do</a></li>
                                                     {/* <li><a href="/team">Team</a></li> */}
 
                                                 </ul>
@@ -51,7 +51,7 @@ class Footer extends Component{
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
                                                     <li><a href="mailto:info@vistateam.net">info@vistateam.net</a></li>
-                                                    <li><a href="/contact">Let's Talk here...</a></li>
+                                                    <li><a href="/contact">Let's Communicate...</a></li>
                                                 </ul>
 
                                                 <div className="social-share-inner">
