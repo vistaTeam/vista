@@ -81,9 +81,9 @@ class HeaderThree extends Component{
                 <div className="header-right">
                     <nav className="mainmenunav d-lg-block">
                         <ul className="mainmenu">
-                            <li><Link to="/">HOME</Link></li>
-                            <li><Link to="/about">OUR-BUSINESS</Link></li>
-                            <li className="has-droupdown"><Link to="/service" >SERVICES</Link>
+                            <li><Link to="/">WELCOME</Link></li>
+                            <li><Link to="/about">MISSION & VISION</Link></li>
+                            <li className="has-droupdown"><Link to="/service" >WHAT WE DO</Link>
                                 <ul className="submenu">
                                     <li><Link to="/service">All Services</Link></li>
                                     <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/1">Designing</Link></div></li>
@@ -92,18 +92,18 @@ class HeaderThree extends Component{
                                 </ul>
                             </li>
                             {/* <li><Link to="/team">TEAM</Link></li> */}
-                            <li className="has-droupdown"><Link to="/portfolio/vista" >PORTFOILO</Link>
+                            <li className="has-droupdown"><Link to="/portfolio/vista" >SUCCESS STORIES</Link>
                                 <ul className="submenu">
                                     <li><Link to="/portfolio/latest">Latest work</Link></li>
                                     <li><Link to="/portfolio/all">All works</Link></li>
                                 </ul>
                             </li>
-                                    <li className='contact-for-mobile'><Link to="/contact"><strong>ENJOY US!</strong></Link></li>
+                                    <li className='contact-for-mobile'><Link to="/contact"><strong>SAY HELLO</strong></Link></li>
                         </ul>
                     </nav>
                     <div className="header-btn">
                         <a className="rn-btn" href="/contact">
-                            <span>LET'S GO...</span>
+                            <span>SAY HELLO</span>
                         </a>
                     </div>
                         {/* Start Humberger Menu  */}

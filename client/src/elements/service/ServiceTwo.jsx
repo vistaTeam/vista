@@ -26,8 +26,8 @@ const ServiceList = [
 
 class ServiceTwo extends Component{
     render(){
-        let title = 'Our Services',
-        description = 'Our skilled team is prepared to meet all of your design, marketing and web development needs.';
+        let title = ' OUR DIVERSE SERVICES',
+        description = 'Our proactive team is prepared to kickstart your campaign, elevate your brand, or assist with your web development needs.';
         return(
             <React.Fragment>
                 <div className="row">
@@ -36,7 +36,7 @@ class ServiceTwo extends Component{
                             <h2 className="title">{title}</h2>
                             <p>{description}</p>
                             <div className="service-btn">
-                                <a className="btn-transparent rn-btn-dark" href="/contact"><span className="text">Request Custom Service</span></a>
+                                <a className="btn-transparent rn-btn-dark" href="/contact"><span className="text">Get a Tailored Solution</span></a>
                             </div>
                         </div>
                     </div>

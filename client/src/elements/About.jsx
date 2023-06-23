@@ -20,8 +20,8 @@ class About extends Component{
     }
     
     render(){
-        let title = 'About',
-        description = 'Our team is made up of skilled experts across the fields of graphic design, marketing and web development. With decades of combined experience under our belts, we bring the necessary expertise to make your business or campaign thrive.';
+        let title = 'MISSION & VISION',
+        description = 'At VISTA, we specialize in providing full-scale solutions to help businesses and organizations thrive through strategic marketing, website development, and comprehensive campaign services.';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />

@@ -5,13 +5,13 @@ import { FiCheck } from "react-icons/fi";
 class TabsOne extends Component{
     render(){
         let 
-        tab1 = "Our history", 
+        tab1 = "Our Journey", 
         tab2 = "Our mission",
-        tab3 = "Friendly Support";
+        tab3 = "Our Vision";
         const { tabStyle } = this.props;
         var namesItemOne = [
-            'Attention Grabbing Graphics',
-            'Compelling Marketing Campaigns',
+            'Captivating Visuals',
+            'Compelling Marketing Solutions',
             'Stunning Websites',
             'Unbeatable Customer Service',
         ];
@@ -32,7 +32,7 @@ class TabsOne extends Component{
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <p>As entrepreneurs, we know what it’s like to build from the ground up. We started small with simple yet expertly crafted graphics and commercials. Over time, we gained an outstanding reputation and with a loyal base of customers that inspired us to continue growing and expanding our knowledge and skills to produce larger scale content. This path led us to designing and developing websites and campaigns for clients from a variety of different businesses. Today, we focus on exceptional graphic design, creating high impact marketing campaigns and designing top tier websites for our clients.</p>
+                                           <p>As entrepreneurs ourselves, we understand the journey of starting from the ground up. We began humbly, crafting expertly designed graphics and commercials. Over time, our outstanding reputation and loyal customer base inspired us to expand our knowledge and skills, enabling us to create larger-scale content. Today, we specialize in exceptional graphic design, impactful marketing campaigns, and top-tier website development for clients spanning various industries.</p>
 
                                            <div className="mt--30">
                                                <h4>We Deliver…</h4>
@@ -47,13 +47,15 @@ class TabsOne extends Component{
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <p>When you combine dynamic graphic design, strategic marketing and cutting edge web development, your business becomes unstoppable. We pride ourselves on ensuring that your vision and expectations are met every step of the way, so we take careful time to communicate with you from the beginning to your brand concepts to hitting your final targets.</p>
+                                           <p><strong>-Full Marketing Solutions:</strong><br/>From strategic planning to execution, our team of experts is dedicated to delivering comprehensive marketing solutions. We develop tailored strategies, execute targeted campaigns, and measure results to help businesses achieve their marketing goals.
+                                            <br/><br/><strong>-Complete Web Development:</strong><br/>We specialize in creating fully customized websites that drive results. Our web development services encompass everything from designing visually captivating websites to building robust and user-friendly interfaces. We ensure that your website stands out from the competition while effectively conveying your brand message.
+                                            <br/><br/><strong>-Comprehensive Campaign Services:</strong><br/>We understand the power of impactful campaigns. Our comprehensive campaign services cover the entire spectrum, from conceptualization to execution and analysis. We work closely with you to develop and implement campaigns that resonate with your target audience, helping you achieve your campaign objectives.</p>
                                        </div>
                                     </TabPanel>
 
                                     <TabPanel>
                                        <div className="single-tab-content">
-                                           <p>As our client, we care greatly about your success and satisfaction with the final product. That’s why we go above and beyond to provide outstanding communication and support for you at every turn. We understand how important it is to have your voice heard when it comes to your brand and our team is dedicated to creating solutions for any of your design, marketing or web development concerns. </p>
+                                           <p>At VISTA, our vision is to be a trusted industry leader, providing holistic solutions that drive the growth and success of businesses and organizations. We strive to build strong partnerships, deliver innovative strategies, and contribute to our clients' achievements. Through our commitment to excellence and client-centric approach, we aim to make a lasting impact in the success stories of our clients. </p>
                                        </div>
                                     </TabPanel>
                                     

@@ -24,27 +24,27 @@ const SlideList = [
         textPosition: 'text-center',
         bgImage: 'bg_image--15',
         category: '',
-        title: 'Marketing.',
-        description: 'You get the results you need with our marketing strategies tailored for your business or campaign.',
-        buttonText: 'Try Us',
+        title: 'MARKETING.',
+        description: 'Boost your business with our comprehensive marketing services. We offer full-service solutions to advertise and promote your business effectively.',
+        buttonText: 'Get in Touch',
         buttonLink: '/contact'
     },
     {
         textPosition: 'text-center',
         bgImage: 'bg_image--12',
         category: '',
-        title: 'Development.',
-        description: 'Your website is the cornerstone of your business and our skilled developers design websites made to stand out from the pack.',
-        buttonText: 'Let\'s go...' ,
+        title: 'DEVELOPMENT.',
+        description: 'Unlock the true potential of your business with our skilled developers who create stunning websites that stand out from the crowd.',
+        buttonText: 'Request a Quote' ,
         buttonLink: '/contact'
     },
     {
         textPosition: 'text-center',
         bgImage: 'bg_image--13',
         category: '',
-        title: 'DESIGN.',
-        description: 'Draw more customers to your business with our unique, eye-catching graphic designs for your brand.',
-        buttonText: 'Contact Us',
+        title: 'CAMPAIGNS.',
+        description: 'Drive your success forward with our comprehensive campaign services. We ensure that your campaign reaches its target, bringing your goals to fruition.',
+        buttonText: 'Let\'s Achieve Together',
         buttonLink: '/contact'
     }
 ]
@@ -56,8 +56,8 @@ class Startup extends Component{
     }
     render(){
         // const PostList = BlogContent.slice(0 , 3);
-        let title = 'About',
-        description = 'Our team is made up of skilled experts across the fields of graphic design, marketing and web development. With decades of combined experience under our belts, we bring the necessary expertise to make your business or campaign thrive.';
+        let title = 'MISSION & VISION',
+        description = 'At VISTA, we specialize in providing full-scale solutions to help businesses and organizations thrive through strategic marketing, website development, and comprehensive campaign services.';
 
         return(
             <Fragment> 

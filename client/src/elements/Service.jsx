@@ -52,7 +52,7 @@ class Service extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center mb--30">
-                                    <h2>Our Services</h2>
+                                    <h2>What we do</h2>
                                     <p>Our skilled team is prepared to meet all of your design, marketing and web development needs.</p>
                                 </div>
                             </div>
