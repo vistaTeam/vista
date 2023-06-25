@@ -55,13 +55,13 @@ class Portfolio extends Component{
            })
            this.setState({latestList: temp})
 
-           let tempDesigning = [];
+           let tempCampaigns = [];
            let tempMarketing = [];
            let tempDevelopment = [];
 
            res.data.map((e)=>{
-               if (e.category === 'Designing') {
-                   tempDesigning.push(e)
+               if (e.category === 'Campaigns') {
+                   tempCampaigns.push(e)
                }
                else if (e.category === 'Marketing') {
                 tempMarketing.push(e)
@@ -72,7 +72,7 @@ class Portfolio extends Component{
                return e
            })
 
-           this.setState({deisgningList: tempDesigning});
+           this.setState({deisgningList: tempCampaigns});
            this.setState({marketingList: tempMarketing});
            this.setState({developmentList: tempDevelopment});
         })
@@ -84,7 +84,7 @@ class Portfolio extends Component{
     showAll=()=>{
         this.setState({listForProps: this.state.list})
     }
-    showDesigning=()=>{
+    showCampaigns=()=>{
         this.setState({listForProps: this.state.deisgningList})
     }
     showMarketing=()=>{
@@ -184,7 +184,7 @@ class Portfolio extends Component{
                             <div className="tablist-inner">
                                 <TabList className="pv-tab-button text-center mt--0">
                                     <Tab onClick={this.showAll}><span>All Projects</span></Tab>
-                                    <Tab onClick={this.showDesigning}><span>Campaigns</span></Tab>
+                                    <Tab onClick={this.showCampaigns}><span>Campaigns</span></Tab>
                                     <Tab onClick={this.showMarketing}><span>Marketing</span></Tab>
                                     <Tab onClick={this.showDevelopment}><span>Development</span></Tab>
                                 </TabList>
