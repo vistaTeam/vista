@@ -1,26 +1,26 @@
 import React, { Component } from "react";
 // import { FiLayers , FiUsers } from "react-icons/fi";
-import { FaTv, FaCode, FaPoll } from 'react-icons/fa'
+import { FaTv, FaCode, FaPoll, FaDrawPolygon, FaRegFlag } from 'react-icons/fa'
 
 
 const ServiceList = [
     {
-        icon: <FaTv />,
+        icon: <FaRegFlag />,
         link: '1',
-        title: 'Graphic Design',
-        description: 'Our design team provides strategic and artistic components needed to give your brand’s image a competitive edge.'
-    },
-    {
-        icon: <FaCode />,
-        link: '2',
-        title: 'Website Development',
-        description: 'Our web developers are experts at creating websites that represent the image of your brand and are easy to navigate for your customers.'
+        title: 'Campaigns',
+        description: 'Reach Your Goals with Our Full Campaign Services.'
     },
     {
         icon: <FaPoll />,
         link: '3',
-        title: 'Marketing & Reporting',
-        description: 'Our team can design a strategic marketing campaign to meet your goals fast. Marketing campaigns are the catalyst designed to take your business to the next level.'
+        title: 'Marketing',
+        description: 'Accelerate Your Business with Effective Marketing.'
+    },
+    {
+        icon: <FaCode />,
+        link: '2',
+        title: 'Web Development',
+        description: 'Create an Impressive Online Presence'
     }
 ]
 
@@ -43,7 +43,7 @@ class ServiceTwo extends Component{
                     <div className="col-lg-8 col-12 mt_md--50">
                         <div className="row service-one-wrapper">
                             {ServiceList.map( (val , i) => (
-                                <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
+                                <div className="col-lg-4 col-md-4 col-sm-4 col-12" key={i}>
                                     <a href={`/service-details/${val.link}`}>
                                         <div className="service service__style--2">
                                             <div className="icon">

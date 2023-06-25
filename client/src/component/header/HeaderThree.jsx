@@ -85,17 +85,17 @@ class HeaderThree extends Component{
                             <li><Link to="/about">MISSION & VISION</Link></li>
                             <li className="has-droupdown"><Link to="/service" >WHAT WE DO</Link>
                                 <ul className="submenu">
-                                    <li><Link to="/service">All Services</Link></li>
-                                    <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/1">Designing</Link></div></li>
-                                    <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/2">Developing</Link></div></li>
-                                    <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/3">Marketing</Link></div></li>
+                                    {/* <li><Link to="/service">All Services</Link></li> */}
+                                    <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/1">CAMPAIGNS</Link></div></li>
+                                    <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/3">MARKETING</Link></div></li>
+                                    <li><div onClick={_=>{window.location.reload(false)}}><Link to="/service-details/2">WEB DEVELOPMENT</Link></div></li>
                                 </ul>
                             </li>
                             {/* <li><Link to="/team">TEAM</Link></li> */}
                             <li className="has-droupdown"><Link to="/portfolio/vista" >SUCCESS STORIES</Link>
                                 <ul className="submenu">
-                                    <li><Link to="/portfolio/latest">Latest work</Link></li>
-                                    <li><Link to="/portfolio/all">All works</Link></li>
+                                    <li><Link to="/portfolio/latest">Latest Projects</Link></li>
+                                    <li><Link to="/portfolio/all">All projects</Link></li>
                                 </ul>
                             </li>
                                     <li className='contact-for-mobile'><Link to="/contact"><strong>SAY HELLO</strong></Link></li>

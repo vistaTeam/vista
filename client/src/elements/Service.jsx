@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import { FiChevronUp } from "react-icons/fi";
-import { FaTv, FaCode, FaPoll } from 'react-icons/fa'
+import { FaRegFlag, FaCode, FaPoll } from 'react-icons/fa'
 import ScrollToTop from 'react-scroll-up';
 import Header from "../component/header/HeaderThree";
 import Footer from "../component/footer/Footer";
@@ -10,22 +10,22 @@ import Footer from "../component/footer/Footer";
 
 const ServiceList = [
     {
-        icon: <FaTv />,
+        icon: <FaRegFlag />,
         link: '1',
-        title: 'Graphic Design',
-        description: 'Our design team provides strategic and artistic components needed to give your brand’s image a competitive edge.'
-    },
-    {
-        icon: <FaCode />,
-        link: '2',
-        title: 'Website Development',
-        description: 'Our web developers are experts at creating websites that represent the image of your brand and are easy to navigate for your customers.'
+        title: 'Campaigns',
+        description: 'Reach Your Goals with Our Full Campaign Services.'
     },
     {
         icon: <FaPoll />,
         link: '3',
-        title: 'Marketing & Reporting',
-        description: 'Our team can design a strategic marketing campaign to meet your goals fast. Marketing campaigns are the catalyst designed to take your business to the next level.'
+        title: 'Marketing',
+        description: 'Accelerate Your Business with Effective Marketing.'
+    },
+    {
+        icon: <FaCode />,
+        link: '2',
+        title: 'Web Development',
+        description: 'Create an Impressive Online Presence'
     }
 ]
 
@@ -39,11 +39,11 @@ class Service extends Component{
     render(){
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='Service' />
+                <PageHelmet pageTitle='WHAT WE DO' />
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Service'}   />
+                <Breadcrumb title={'WHAT WE DO'}   />
                 {/* End Breadcrump Area */}
 
                 {/* Start Service Area */}
@@ -52,7 +52,7 @@ class Service extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center mb--30">
-                                    <h2>What we do</h2>
+                                    <h2>WHAT WE DO</h2>
                                     <p>Our skilled team is prepared to meet all of your design, marketing and web development needs.</p>
                                 </div>
                             </div>

@@ -24,11 +24,11 @@ class About extends Component{
         description = 'At VISTA, we specialize in providing full-scale solutions to help businesses and organizations thrive through strategic marketing, website development, and comprehensive campaign services.';
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='About' />
+                <PageHelmet pageTitle='MISSION & VISION' />
 
                 <HeaderThree headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'About'}   />
+                <Breadcrumb title={'MISSION & VISION'}   />
                 {/* End Breadcrump Area */}
 
                 {/* Start About Area  */}

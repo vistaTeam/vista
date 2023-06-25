@@ -30,7 +30,7 @@ class ServiceDetails extends Component{
         if (this.state.pointOfService === '1') {
             return (<div>
                 {/* Start Pagehelmet  */}
-                <PageHelmet pageTitle='Graphic Design' />
+                <PageHelmet pageTitle='Campaigns at VISTA' />
                 {/* End Pagehelmet  */}
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
@@ -41,8 +41,8 @@ class ServiceDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">GRAPHIC DESIGN</h2>
-                                    <p>Draw more customers to your business with our unique,<br/>eye-catching graphic designs for your brand.</p>
+                                    <h2 className="title theme-gradient">IGNITE. ENGAGE. SUCCEED.</h2>
+                                    <p> <strong> Unleash the Potential of Your Campaign</strong><br/>Comprehensive Campaign Services for Unforgettable Results</p>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +66,8 @@ class ServiceDetails extends Component{
                                             </div>
                                             <div className="col-lg-8 col-12">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>Creating a visual representation of your business is one of the most important steps you can take in building a successful brand identity. The images you choose to represent your brand will serve as the first impression that your potential customers will have of your business and will create a feeling of familiarity between your brand and your audience. Your logos, business cards and website graphics should harmoniously create the story of your brand in a way that inspires and relates to your ideal customers. At Vista, we take great pride in working with you to build a visual story that accurately reflects your brand’s purpose. The most successful companies in the world have created imagery that instantly resonates in the minds of their customers and we are dedicated to helping you achieve the same result, no matter the size of your business.<br/>
-                                                    <br/>Human beings are highly visual creatures and we rely on our senses to help us make decisions. Our team of professionals can help you better understand what your customers are craving by conducting thorough market research on your target demographic. In order to create an aesthetic that will spark interest in your audience, you have to obtain a deep understanding of who your target audience really is and what their needs are. The Vista team specializes in creating innovative solutions to help your brand stand out from the crowd and connect with your audience in a unique way. When you combine comprehensive research with attention to every aesthetic detail, your brand becomes unstoppable.<br/>
+                                                    <p>At VISTA, we specialize in providing comprehensive campaign services that ignite your brand, engage your audience, and pave the way for your success. Our team of experienced professionals is dedicated to creating impactful campaigns that leave a lasting impression and drive tangible results. From strategic planning to execution, we are with you every step of the way, ensuring that your campaign delivers maximum impact and achieves your objectives.<br/>
+                                                    <br/>With our strategic approach, we start by gaining a deep understanding of your target audience, market dynamics, and campaign goals. This allows us to develop tailored strategies that resonate with your audience and align with your brand values. Our team combines creativity and data-driven insights to create compelling content, captivating visuals, and persuasive messaging that cuts through the noise and sparks engagement. Whether it's raising awareness, driving conversions, or mobilizing support, we have the expertise to make your campaign a resounding success.<br/>
                                                     <br/></p>
                                                 </div>
                                             </div>
@@ -78,7 +78,8 @@ class ServiceDetails extends Component{
                                         <div className="row sercice-details-content align-items-center">
                                             <div className="col-lg-6 col-12 order-2 order-lg-1">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>Our team of experts has hands-on experience in research, development, design and execution of compelling visual content. We go above and beyond to provide you with sophisticated and creative graphic designs and branding solutions. When you work with Vista, you can be sure that your brand’s imagery will have a lasting impact in the minds of  your future customers.</p>
+                                                    <p>We believe in the power of an integrated and multi-channel approach to campaigning. Our team leverages a range of channels, including social media, digital advertising, email marketing, and more, to ensure your message reaches your target audience at the right time and through the right channels. We closely monitor campaign performance, analyze data, and make data-driven optimizations to continuously enhance the effectiveness of your campaign. With our comprehensive campaign services, you can unleash the full potential of your brand, connect with your audience on a deeper level, and achieve remarkable success.</p>
+                                                   <p>Choose VISTA as your campaign partner and unlock the potential of your brand. Our dedicated team is ready to collaborate with you, understand your unique needs, and deliver a campaign that sets you apart from the competition. Let's ignite, engage, and succeed together. Contact us today to get started.</p>
                                                     <h4 className="title">Our Working Process</h4>
                                                     <ul className="liststyle">
                                                         <li>Connect with you to understand the unique vision of your brand.</li>
@@ -91,7 +92,7 @@ class ServiceDetails extends Component{
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
                                                     <img className="w-100" src="/assets/images/service/service-02.png" alt="Service Images"/>
-                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='GSJq-l_CeyQ' onClose={() => this.setState({isOpen: false})} />
+                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='fpPZBCgDGG0' onClose={() => this.setState({isOpen: false})} />
                                                     <button className="video-popup" onClick={this.openModal}><span className="play-icon"></span></button>
                                                 </div>
                                             </div>
@@ -111,7 +112,7 @@ class ServiceDetails extends Component{
         else if (this.state.pointOfService === '2') {
             return(<div>
                 {/* Start Pagehelmet  */}
-                <PageHelmet pageTitle='Graphic Design' />
+                <PageHelmet pageTitle='Development at VISTA' />
                 {/* End Pagehelmet  */}
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
@@ -122,8 +123,8 @@ class ServiceDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">WEBSITE DEVELOPMENT</h2>
-                                    <p>Your website is the cornerstone of your business and our skilled<br/>developers design websites made to stand out from the pack.</p>
+                                    <h2 className="title theme-gradient">IGNITE YOUR ONLINE PRESENCE</h2>
+                                    <p>Unleash the Power of Web Development</p>
                                 </div>
                             </div>
                         </div>
@@ -147,9 +148,13 @@ class ServiceDetails extends Component{
                                             </div>
                                             <div className="col-lg-8 col-12">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>Thanks to the growing demand for digital content, the world of Web design has continued to expand and evolve over recent years. While this change is exciting, it also creates intense competition to rise to the top in the overwhelming sea of digital content. Creating a sophisticated web space for your business while simultaneously providing engagement and increasing exposure can be exhausting and time consuming for new and small business owners. That’s where the Vista team comes in.<br/>
-                                                    <br/>We understand that it can be daunting to find someone who truly cares about the success of your business when there are an overwhelming number of web designers to choose from. What sets the Vista team from the pack is our overall expertise in web design, programming and advertising and our dedicated attention for each individual client’s needs. Whether you are in the United Kingdom or on the other side of the globe, our team is here to make your brand stand out in the digital space.<br/>
-                                                    <br/></p>
+                                                    <p>In today's digital age, having a strong online presence is essential for businesses to thrive. At VISTA TEAM, we specialize in web development solutions that bring your brand to life and drive meaningful results.<br/>
+                                                    <br/>With our team of skilled developers, we create dynamic and visually captivating websites that engage your audience from the moment they land on your page. We combine cutting-edge design techniques with user-friendly functionality to deliver an exceptional online experience.<br/>
+                                                    <br/>Our web development services are fully customizable to meet your unique needs. Whether you're looking for a simple and elegant website or a robust e-commerce platform, we have the expertise to deliver a solution that aligns with your brand identity and business goals.<br/>
+                                                    <br/>We understand that your website needs to perform seamlessly across all devices. That's why we prioritize responsive design, ensuring that your site looks and functions flawlessly on desktops, tablets, and mobile devices. By optimizing the user experience, we maximize engagement and conversions.<br/>
+                                                    <br/>Security is a top priority for us. We implement industry-leading practices to protect your website from potential threats and ensure the safety of your customers' data. Rest easy knowing that your website is fortified with robust security measures.<br/>
+
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -159,7 +164,8 @@ class ServiceDetails extends Component{
                                         <div className="row sercice-details-content align-items-center">
                                             <div className="col-lg-6 col-12 order-2 order-lg-1">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>No matter what the size, model or scope of your business may be, our team is ready to work for you. Do you have a personal website that you’d like to get more exposure for? Or are you a corporate business that requires complex designs for your products? Our skilled experts are ready to deliver designs that are custom tailored for all or your business needs. Our goal is create a website that is visually stunning, fully functional and generates positive returns. We take your website vision and make it a successful reality.</p>
+                                                    <p>Our track record speaks for itself. We've helped numerous businesses achieve online success through our web development services. Our clients have witnessed increased website traffic, higher conversion rates, and improved brand credibility, leading to measurable business growth.</p>
+                                                    <p>Ready to ignite your online presence? Trust VISTA TEAM for expert web development that sets you apart from the competition. Contact us today to discuss your project and let's turn your digital dreams into reality.</p>
                                                     <h4 className="title">Our Working Process</h4>
                                                     <ul className="liststyle">
                                                         <li>Connect with you to understand the goals and specific needs of your website.</li>
@@ -172,7 +178,7 @@ class ServiceDetails extends Component{
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
                                                     <img className="w-100" src="/assets/images/service/service-04.png" alt="Service Images"/>
-                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='LtmLf_mYKYA' onClose={() => this.setState({isOpen: false})} />
+                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='_yqORRFn7Xw' onClose={() => this.setState({isOpen: false})} />
                                                     <button className="video-popup" onClick={this.openModal}><span className="play-icon"></span></button>
                                                 </div>
                                             </div>
@@ -191,7 +197,7 @@ class ServiceDetails extends Component{
         else if (this.state.pointOfService === '3') {
             return <div>
                 {/* Start Pagehelmet  */}
-                <PageHelmet pageTitle='Graphic Design' />
+                <PageHelmet pageTitle='Marketing at VISTA' />
                 {/* End Pagehelmet  */}
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
@@ -202,8 +208,8 @@ class ServiceDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">MARKETING & REPORTING</h2>
-                                    <p>You get the results you need with our marketing strategies tailored for your business.</p>
+                                    <h2 className="title theme-gradient">POWER YOUR BRAND</h2>
+                                    <p>Unlock the Power of Strategic Branding and Propel Your Business Forward.</p>
                                 </div>
                             </div>
                         </div>
@@ -227,8 +233,8 @@ class ServiceDetails extends Component{
                                             </div>
                                             <div className="col-lg-8 col-12">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>Once you’ve crafted your brand identity through graphic design and website development, it’s time to get your product out there with an effective marketing and advertising strategy! After all, it won’t matter how innovative your business is if it isn’t reaching your customers. Vista comprises a dynamic team of passionate, creative and resourceful marketing strategists with the expertise you need to take your business to the next level.<br/>
-                                                    <br/>Our team operates from the belief that powerful marketing begins with telling a great story. In our day to day lives, we are constantly being fed stories from every person, place and thing we come into contact with. When your brand is telling a compelling story that connects with your audience in a positive way, you will see extraordinarily generous returns. Our experts are highly skilled at identifying exactly who your target audience is and then leveraging that information with tools, techniques and strategies that are custom designed to reach more of your consumers.<br/>
+                                                    <p>At VISTA, we take pride in our comprehensive and results-driven marketing process. We understand that a strong and impactful brand is essential for the success of your business. That's why we offer a range of branding services designed to elevate your brand identity and make a lasting impression on your target audience.<br/>
+                                                    <br/>Our branding process begins with a deep dive into understanding your business, target market, and unique value proposition. We conduct thorough research and analysis to identify key insights and develop a strategic brand positioning that sets you apart from the competition. From there, our talented team of designers and marketers work collaboratively to create captivating visuals, compelling messaging, and a cohesive brand identity that resonates with your audience.<br/>
                                                     <br/></p>
                                                 </div>
                                             </div>
@@ -239,20 +245,20 @@ class ServiceDetails extends Component{
                                         <div className="row sercice-details-content align-items-center">
                                             <div className="col-lg-6 col-12 order-2 order-lg-1">
                                                 <div className="details mt_md--30 mt_sm--30">
-                                                    <p>We believe that having an excellent marketing and advertising strategy is essential for both individuals and businesses looking to gain more exposure in the digital space and creating a brand with staying power. That’s why we provide you with marketing and advertising report analytics. These analytics allow you to gauge in real time how effective the Vista team’s strategies are for your brand growth. We put the power in your hands and let you be the final judge of the value of our services. Vista is dedicated to creating an atmosphere where the client always comes first, and we have the results to prove it.</p>
+                                                    <p>Once your brand identity is established, we implement a multi-channel marketing approach to maximize your brand's visibility and reach. Our expert team leverages various marketing channels such as social media, digital advertising, content marketing, and search engine optimization to create a holistic and integrated marketing campaign. We continuously monitor and analyze the performance of your marketing efforts, making data-driven optimizations to ensure maximum effectiveness and return on investment.</p>
                                                     <h4 className="title">Our Working Process</h4>
                                                     <ul className="liststyle">
                                                         <li>Connect with you to assess your marketing goals and analyze your current standings.</li>
                                                         <li>Craft a unique plan designed to help you meet your outreach goals.</li>
                                                         <li>Deliver your marketing campaign so that you can hit the ground running and reach more customers, fast. </li>
                                                     </ul>
-                                                    <h5 style={{marginTop: '20px'}} className="title">At Vista, we Connect, Craft and Deliver...</h5>
+                                                    <h5 style={{marginTop: '20px'}} className="title">At VISTA, we Connect, Craft and Deliver...</h5>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12 order-1 order-lg-2">
                                                 <div className="thumb position-relative">
                                                     <img className="w-100" src="/assets/images/service/service-06.png" alt="Service Images"/>
-                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='lHKA8Mjxw5k' onClose={() => this.setState({isOpen: false})} />
+                                                    <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='uJi-1EJjzXQ' onClose={() => this.setState({isOpen: false})} />
                                                     <button className="video-popup" onClick={this.openModal}><span className="play-icon"></span></button>
                                                 </div>
                                             </div>

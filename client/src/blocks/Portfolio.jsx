@@ -35,7 +35,7 @@ class Portfolio extends Component{
         var url = window.location.href;
         
         if (url.charAt(url.length - 1) === 'l') {
-            window.scrollTo(0, 850);
+            window.scrollTo(0, 800);
         }
         else {
             window.scrollTo(0, 0);
@@ -184,7 +184,7 @@ class Portfolio extends Component{
                             <div className="tablist-inner">
                                 <TabList className="pv-tab-button text-center mt--0">
                                     <Tab onClick={this.showAll}><span>All Projects</span></Tab>
-                                    <Tab onClick={this.showDesigning}><span>Designing</span></Tab>
+                                    <Tab onClick={this.showDesigning}><span>Campaigns</span></Tab>
                                     <Tab onClick={this.showMarketing}><span>Marketing</span></Tab>
                                     <Tab onClick={this.showDevelopment}><span>Development</span></Tab>
                                 </TabList>
